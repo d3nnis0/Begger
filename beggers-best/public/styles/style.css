@@ -1,27 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fdf6e3;
-    color: #333;
+    background-color: #fffbee;
+    color: #5c3b00;
 }
 
 header {
     background-color: #f4a261;
     color: white;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
 }
 
 header p {
     margin: 0.5rem 0 0;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 nav {
@@ -41,19 +43,61 @@ nav a:hover {
 
 main {
     padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background-color: #fff7e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
     color: #e76f51;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+section ul li:before {
+    content: '\1F41D';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     text-align: center;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     background-color: #264653;
     color: white;
+    font-size: 0.9rem;
+    margin-top: 2rem;
 }
