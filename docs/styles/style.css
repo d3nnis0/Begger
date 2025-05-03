@@ -80,7 +80,7 @@ ul li {
 }
 
 ul li::before {
-    content: url('https://via.placeholder.com/20x20?text=🐝');
+    content: '🐝';
     position: absolute;
     left: 0;
     top: 50%;
