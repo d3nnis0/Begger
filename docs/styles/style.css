@@ -104,6 +104,13 @@ ul li::before {
     transform: scale(1.05);
 }
 
+.logo-img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
 footer {
     background-color: #333;
     color: #fff;
